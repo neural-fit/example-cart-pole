@@ -29,5 +29,5 @@ def evaluate (genomes):
 model.func_evolve(evaluate, epochs=50)
 
 # Enable rendering, and visualize the result
-env = gym.make('CartPole-v0', render_mode='human')
+env = gym.make('CartPole-v1', render_mode='human')
 evaluate([model])
